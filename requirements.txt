@@ -1,0 +1,26 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Image processing
+Pillow==10.1.0
+opencv-python==4.8.1.78
+numpy==1.24.3
+
+# AI/ML for background removal
+rembg==2.0.50
+onnxruntime==1.16.3
+
+# Image enhancement
+scikit-image==0.22.0
+
+# CLI
+click==8.1.7
+rich==13.7.0
+tqdm==4.66.1
+
+# Utils
+aiofiles==23.2.1
+pydantic==2.5.0
+python-dotenv==1.0.0
